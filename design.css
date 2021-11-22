@@ -1,0 +1,172 @@
+
+
+
+
+  
+  .fullpage{
+    margin: 0px 200px 0px 200px;
+    background-color:whitesmoke;
+    height: 1200px;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+    margin-left: 90px;
+    margin-bottom: 90px;
+   padding-top: 20px;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+    
+     .signtop{
+       float: right;
+       margin-top: -120px;
+       margin-right: 90px;
+    
+     }
+
+    #btntop{
+      border: none;
+      font-size: 16px;
+     }
+
+     #btnup{
+       line-height: 30px;
+       width: 90px;
+       background-color: black;
+       color: white;
+       border: none;
+       font-size: 16px;
+     }
+
+     .centerpage{
+       margin-left: 80px;
+       margin-right: 60px;
+      
+     }
+  
+  .middle1{
+   margin-bottom: 200px;
+  }
+
+   .mid1{
+    float: left;
+    width: 250px;
+    height: 150px;
+    padding-top: 60px;
+    padding-right: 200px;
+    font-size: 13px;
+
+   }
+
+  .mid1 h1{
+    font-size: 70px;
+    margin-bottom: 100px;
+    width: 900px;
+  }
+
+  #span1{
+    color: lightpink;
+      position: relative;
+      top:60px;
+      right: 360px;
+      /* bottom: 500px; */
+  }
+
+  .mid1 button{
+    line-height: 25px;
+    width: 150px;
+    background-color: black;
+    color: white;
+  }
+
+  #pix1{
+    /* background-color:whitesmoke; */
+    /* background-color:red 300px; */
+  }
+
+  .middle2{
+    margin-bottom: 200px;
+    
+  }
+
+   .mid2{
+    float:right;
+    width: 400px;
+    height: 200px;
+    margin-top:-200px;
+    margin-right:50px;
+    font-size: 13px;
+   }
+
+   .mid2 h1{
+    font-size: 50px;
+    color: lightslategray;
+   }
+   .mid2 button{
+    line-height: 30px;
+    background-color: black;
+    color: white;
+   }
+   
+   .video{
+     margin-left: 60px;
+     margin-top: -70px;
+   }
+
