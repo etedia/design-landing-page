@@ -1,19 +1,29 @@
 
 
 
-
+ .header{
+   margin-top: 30px;
+ }
   
   .fullpage{
     margin: 0px 200px 0px 200px;
     background-color:whitesmoke;
     height: 1200px;
   }
+
+  .fa-wordpress{
+    /* float: left; */
+    margin-left: 90px;
+    position: absolute;
+    top: 50px;
+
+  }
   
   .navbar {
     overflow: hidden;
     /* background-color: #333; */
     font-family: Arial;
-    margin-left: 90px;
+    margin-left: 250px;
     margin-bottom: 90px;
    padding-top: 20px;
   }
@@ -92,6 +102,7 @@
        background-color: black;
        color: white;
        border: none;
+       border-radius: 5px;
        font-size: 16px;
      }
 
@@ -134,6 +145,8 @@
     width: 150px;
     background-color: black;
     color: white;
+    border: none;
+    border-radius: 5px;
   }
 
   #pix1{
@@ -163,6 +176,8 @@
     line-height: 30px;
     background-color: black;
     color: white;
+    border: none;
+    border-radius: 5px;
    }
    
    .video{
